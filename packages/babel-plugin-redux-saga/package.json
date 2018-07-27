@@ -12,6 +12,9 @@
   "scripts": {
     "test": "jest --env=node"
   },
+  "jest": {
+    "testURL": "http://localhost/"
+  },
   "devDependencies": {
     "@babel/core": "7.0.0-beta.52",
     "@babel/plugin-proposal-object-rest-spread": "7.0.0-beta.52",
