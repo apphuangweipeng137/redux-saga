@@ -7,7 +7,7 @@
     "test": "cross-env NODE_ENV=test babel-node test/sagas.js | tap-spec"
   },
   "dependencies": {
-    "redux-saga": "^1.0.0-beta.1"
+    "redux-saga": "1.0.0-beta.1"
   },
   "devDependencies": {
     "@babel/core": "7.0.0-beta.52",
@@ -17,7 +17,7 @@
     "@babel/preset-env": "7.0.0-beta.52",
     "@babel/preset-react": "7.0.0-beta.52",
     "babel-loader": "8.0.0-beta.4",
-    "babel-plugin-redux-saga": "^1.0.0-beta.1",
+    "babel-plugin-redux-saga": "1.0.0-beta.1",
     "cross-env": "^1.0.8",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",

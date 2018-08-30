@@ -5,5 +5,8 @@
     "packages/*",
     "examples/*"
   ],
-  "hoist": true
+  "hoist": true,
+  "nohoist": [
+    "redux-saga-test-plan"
+  ]
 }
